@@ -49582,3 +49582,5 @@ Unauthorized: /api/user/userinfo/
 [04/Jul/2023 16:17:32] "GET /api/table/list/?type=0&author_name=%E4%B8%BB%E5%8D%87%E9%BE%99%E5%A4%B4%E7%9C%9F%E7%BB%8F HTTP/1.0" 200 109218
 [04/Jul/2023 16:17:37] "GET /api/table/sync_news/ HTTP/1.0" 200 1024362
 [04/Jul/2023 16:17:45] "GET /api/table/fupan/ HTTP/1.0" 200 566288
+[04/Jul/2023 16:25:59] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 16:25:59] "GET /api/table/list/ HTTP/1.0" 200 654552
