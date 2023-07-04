@@ -16,7 +16,13 @@ import time,datetime,re
 
 def GetDbList(requests):
     employee = DbUtils.Model()
-    dbsql = "select * from author_say order by publish_time desc;"
+    author_name = requests.GET.get('author_name')
+    if author_name:
+
+        dbsql = "select * from author_say where author_name = '{0}' order by publish_time desc;".format(author_name)
+        print(dbsql)
+    else:
+        dbsql = "select * from author_say order by publish_time desc;"
     apm_db_list=employee.fetchall(dbsql)
     apm_db_list={'data':apm_db_list}
     apm_db_list['code'] = 200
@@ -49,3 +55,17 @@ def DavSay(requests):
     apm_db_list={'data':apm_db_list}
     apm_db_list['code'] = 200
     return JsonResponse(apm_db_list)
+
+def GetAuthorName(requests):
+
+    employee = DbUtils.Model()
+    dbsql = "SELECT author_name as value  from author_say GROUP BY author_name"
+    apm_db_list=employee.fetchall(dbsql)
+    value1=[]
+    for li in apm_db_list:
+        value1.append(li['value'])
+    apm_db_list={'data':apm_db_list}
+    apm_db_list['code'] = 200
+    apm_db_list['value1'] = value1
+    return JsonResponse(apm_db_list)
+

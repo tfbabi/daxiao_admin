@@ -15,4 +15,5 @@ urlpatterns = [
     url('^table/hot_news/$',views.HotNews,name='热门新闻'),
     url('^table/fupan/$',views.FuPan,name='复盘'),
     url('^table/davsay/$',views.DavSay,name='大v说'),
+    url('^table/get_author_name/$',views.GetAuthorName,name='获取大V'),
 ]
