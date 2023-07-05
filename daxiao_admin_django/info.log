@@ -49584,3 +49584,213 @@ Unauthorized: /api/user/userinfo/
 [04/Jul/2023 16:17:45] "GET /api/table/fupan/ HTTP/1.0" 200 566288
 [04/Jul/2023 16:25:59] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
 [04/Jul/2023 16:25:59] "GET /api/table/list/ HTTP/1.0" 200 654552
+Unauthorized: /api/user/userinfo/
+[04/Jul/2023 20:54:12] "GET /api/user/userinfo/ HTTP/1.0" 401 34
+[04/Jul/2023 20:54:20] "POST /api/user/login/ HTTP/1.0" 200 127
+[04/Jul/2023 20:54:20] "GET /api/user/userinfo/ HTTP/1.0" 200 440
+[04/Jul/2023 20:54:23] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 20:54:23] "GET /api/table/list/ HTTP/1.0" 200 663283
+[04/Jul/2023 20:54:29] "GET /api/table/sync_news/ HTTP/1.0" 200 1263678
+[04/Jul/2023 20:54:47] "GET /api/table/hot_news/ HTTP/1.0" 200 9252820
+[04/Jul/2023 20:54:56] "GET /api/table/fupan/ HTTP/1.0" 200 766172
+[04/Jul/2023 20:55:11] "GET /api/table/hot_news/ HTTP/1.0" 200 9252820
+[04/Jul/2023 20:55:17] "GET /api/table/davsay/ HTTP/1.0" 200 507574
+[04/Jul/2023 20:55:22] "GET /api/table/sync_news/ HTTP/1.0" 200 1265636
+[04/Jul/2023 20:55:51] "GET /api/table/hot_news/ HTTP/1.0" 200 9252820
+[04/Jul/2023 20:55:52] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 20:55:57] "GET /api/table/list/ HTTP/1.0" 200 663283
+[04/Jul/2023 20:56:03] "GET /api/table/sync_news/ HTTP/1.0" 200 1266761
+[04/Jul/2023 20:56:09] "GET /api/table/davsay/ HTTP/1.0" 200 507574
+[04/Jul/2023 20:56:16] "GET /api/table/fupan/ HTTP/1.0" 200 766172
+[04/Jul/2023 20:56:36] "GET /api/table/hot_news/ HTTP/1.0" 200 9252820
+[04/Jul/2023 22:45:47] "POST /api/user/login/ HTTP/1.0" 200 83
+[04/Jul/2023 22:45:53] "POST /api/user/login/ HTTP/1.0" 200 131
+[04/Jul/2023 22:45:53] "GET /api/user/userinfo/ HTTP/1.0" 200 452
+[04/Jul/2023 22:45:53] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 22:45:53] "GET /api/table/list/ HTTP/1.0" 200 738938
+[04/Jul/2023 22:46:05] "GET /api/user/userinfo/ HTTP/1.0" 200 452
+[04/Jul/2023 22:46:05] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 22:46:05] "GET /api/table/list/ HTTP/1.0" 200 738938
+[04/Jul/2023 22:46:44] "GET /api/table/list/?type=0&author_name=%E4%B8%87%E9%81%93%E5%AF%BB%E6%88%98 HTTP/1.0" 200 108032
+[04/Jul/2023 22:46:46] "GET /api/table/list/?type=0&author_name=%E4%B8%BB%E5%8D%87%E9%BE%99%E5%A4%B4%E7%9C%9F%E7%BB%8F HTTP/1.0" 200 109218
+[04/Jul/2023 22:46:55] "GET /api/table/list/?type=0&author_name=%E4%BD%95%E4%BC%99%E4%BA%BA%E7%82%92%E5%AE%B6777 HTTP/1.0" 200 208342
+[04/Jul/2023 22:49:14] "GET /api/table/list/?type=0&author_name=%E4%B8%BB%E5%8D%87%E9%BE%99%E5%A4%B4%E7%9C%9F%E7%BB%8F HTTP/1.0" 200 109218
+[04/Jul/2023 22:49:20] "GET /api/table/sync_news/ HTTP/1.0" 200 1335017
+[04/Jul/2023 22:49:32] "GET /api/table/fupan/ HTTP/1.0" 200 899633
+[04/Jul/2023 22:49:49] "GET /api/table/list/ HTTP/1.0" 200 738938
+[04/Jul/2023 22:49:49] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 22:50:02] "GET /api/table/list/?type=0&author_name=%E5%90%91%E9%BE%99%E8%80%8C%E7%94%9F HTTP/1.0" 200 119668
+[04/Jul/2023 22:50:03] "GET /api/table/list/?author_name= HTTP/1.0" 200 738938
+[04/Jul/2023 22:50:08] "GET /api/table/list/?type=0&author_name=%E6%B9%96%E5%8D%97%E4%BA%BA HTTP/1.0" 200 148450
+[04/Jul/2023 22:50:11] "GET /api/table/list/?type=0&author_name=%E7%8B%BC%E7%8E%8B%E8%A1%8C%E5%8D%83%E9%87%8C HTTP/1.0" 200 29119
+[04/Jul/2023 22:50:16] "GET /api/table/list/?type=0&author_name=%E4%B8%87%E9%81%93%E5%AF%BB%E6%88%98 HTTP/1.0" 200 108032
+[04/Jul/2023 22:50:30] "GET /api/table/sync_news/ HTTP/1.0" 200 1335017
+[04/Jul/2023 22:50:44] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 22:50:44] "GET /api/table/list/ HTTP/1.0" 200 738938
+[04/Jul/2023 22:50:50] "GET /api/table/hot_news/ HTTP/1.0" 200 9886779
+[04/Jul/2023 22:50:52] "GET /api/table/fupan/ HTTP/1.0" 200 899633
+[04/Jul/2023 22:51:03] "GET /api/table/list/?type=0&author_name=%E4%BD%95%E4%BC%99%E4%BA%BA%E7%82%92%E5%AE%B6777 HTTP/1.0" 200 208342
+[04/Jul/2023 22:51:17] "GET /api/table/list/?type=0&author_name=%E4%B8%87%E9%81%93%E5%AF%BB%E6%88%98 HTTP/1.0" 200 108032
+[04/Jul/2023 22:51:22] "GET /api/table/list/?author_name= HTTP/1.0" 200 738938
+[04/Jul/2023 22:51:26] "GET /api/table/list/?type=0&author_name=%E4%B8%BB%E5%8D%87%E9%BE%99%E5%A4%B4%E7%9C%9F%E7%BB%8F HTTP/1.0" 200 109218
+[04/Jul/2023 22:51:49] "GET /api/table/fupan/ HTTP/1.0" 200 899633
+[04/Jul/2023 22:51:57] "GET /api/table/hot_news/ HTTP/1.0" 200 9886779
+[04/Jul/2023 22:52:33] "GET /api/table/sync_news/ HTTP/1.0" 200 1338190
+[04/Jul/2023 22:52:43] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 22:52:43] "GET /api/table/list/ HTTP/1.0" 200 738938
+[04/Jul/2023 22:54:51] "GET /api/table/sync_news/ HTTP/1.0" 200 1339690
+[04/Jul/2023 22:55:03] "GET /api/table/list/ HTTP/1.0" 200 738938
+[04/Jul/2023 22:55:03] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 22:55:19] "GET /api/table/list/?type=0&author_name=%E7%8B%BC%E7%8E%8B%E8%A1%8C%E5%8D%83%E9%87%8C HTTP/1.0" 200 29119
+[04/Jul/2023 22:55:23] "GET /api/table/list/?type=0&author_name=%E4%B8%BB%E5%8D%87%E9%BE%99%E5%A4%B4%E7%9C%9F%E7%BB%8F HTTP/1.0" 200 109218
+[04/Jul/2023 22:55:33] "GET /api/table/fupan/ HTTP/1.0" 200 917171
+[04/Jul/2023 22:55:40] "GET /api/table/sync_news/ HTTP/1.0" 200 1339690
+[04/Jul/2023 22:55:46] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 22:55:49] "GET /api/table/hot_news/ HTTP/1.0" 200 10025366
+[04/Jul/2023 22:55:50] "GET /api/table/list/ HTTP/1.0" 200 738938
+[04/Jul/2023 23:09:00] "GET /api/table/davsay/ HTTP/1.0" 200 507574
+[04/Jul/2023 23:09:27] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 23:09:27] "GET /api/table/list/ HTTP/1.0" 200 738938
+[04/Jul/2023 23:09:32] "GET /api/table/davsay/ HTTP/1.0" 200 507574
+[04/Jul/2023 23:16:11] "GET /api/table/sync_news/ HTTP/1.0" 200 1356287
+[04/Jul/2023 23:17:41] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 23:17:41] "GET /api/table/list/ HTTP/1.0" 200 738938
+[04/Jul/2023 23:17:53] "GET /api/table/hot_news/ HTTP/1.0" 200 10025366
+[04/Jul/2023 23:18:01] "GET /api/table/fupan/ HTTP/1.0" 200 936028
+[04/Jul/2023 23:22:28] "POST /api/user/login/ HTTP/1.0" 200 83
+[04/Jul/2023 23:22:40] "POST /api/user/login/ HTTP/1.0" 200 127
+[04/Jul/2023 23:22:40] "GET /api/user/userinfo/ HTTP/1.0" 200 440
+[04/Jul/2023 23:22:40] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 23:22:40] "GET /api/table/list/ HTTP/1.0" 200 738938
+[04/Jul/2023 23:22:41] "GET /api/user/userinfo/ HTTP/1.0" 200 440
+[04/Jul/2023 23:22:41] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[04/Jul/2023 23:22:41] "GET /api/table/list/ HTTP/1.0" 200 738938
+[04/Jul/2023 23:22:51] "GET /api/table/sync_news/ HTTP/1.0" 200 1356287
+[04/Jul/2023 23:23:20] "GET /api/table/fupan/ HTTP/1.0" 200 936028
+[04/Jul/2023 23:23:27] "GET /api/table/hot_news/ HTTP/1.0" 200 10025366
+[04/Jul/2023 23:23:47] "GET /api/table/sync_news/ HTTP/1.0" 200 1356287
+[04/Jul/2023 23:23:58] "GET /api/table/hot_news/ HTTP/1.0" 200 10025366
+[05/Jul/2023 00:13:29] "GET /api/table/hot_news/ HTTP/1.0" 200 10025366
+/root/app/daxiao_admin/daxiao_admin_django/user/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 04, 2023 - 16:16:38
+Django version 3.2.19, using settings 'daxiao_admin.settings'
+Starting development server at http://0.0.0.0:8089/
+Quit the server with CONTROL-C.
+1
+1
+1
+select * from author_say where author_name = '主升龙头真经' order by publish_time desc;
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+select * from author_say where author_name = '万道寻战' order by publish_time desc;
+1
+select * from author_say where author_name = '主升龙头真经' order by publish_time desc;
+1
+select * from author_say where author_name = '何伙人炒家777' order by publish_time desc;
+1
+select * from author_say where author_name = '主升龙头真经' order by publish_time desc;
+1
+1
+1
+1
+1
+select * from author_say where author_name = '向龙而生' order by publish_time desc;
+1
+1
+select * from author_say where author_name = '湖南人' order by publish_time desc;
+1
+select * from author_say where author_name = '狼王行千里' order by publish_time desc;
+1
+select * from author_say where author_name = '万道寻战' order by publish_time desc;
+1
+1
+1
+1
+1
+1
+select * from author_say where author_name = '何伙人炒家777' order by publish_time desc;
+1
+select * from author_say where author_name = '万道寻战' order by publish_time desc;
+1
+1
+select * from author_say where author_name = '主升龙头真经' order by publish_time desc;
+1
+1
+1
+1
+1
+1
+1
+1
+1
+select * from author_say where author_name = '狼王行千里' order by publish_time desc;
+1
+select * from author_say where author_name = '主升龙头真经' order by publish_time desc;
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+Watching for file changes with StatReloader
+Unauthorized: /api/user/userinfo/
+[05/Jul/2023 19:26:29] "GET /api/user/userinfo/ HTTP/1.0" 401 34
+[05/Jul/2023 19:26:35] "POST /api/user/login/ HTTP/1.0" 200 131
+[05/Jul/2023 19:26:35] "GET /api/user/userinfo/ HTTP/1.0" 200 448
+[05/Jul/2023 19:26:38] "GET /api/table/get_author_name/ HTTP/1.0" 200 546
+[05/Jul/2023 19:26:38] "GET /api/table/list/ HTTP/1.0" 200 824771
+[05/Jul/2023 19:26:43] "GET /api/table/sync_news/ HTTP/1.0" 200 2195028
+[05/Jul/2023 19:26:51] "GET /api/table/fupan/ HTTP/1.0" 200 1165185
+[05/Jul/2023 19:27:00] "GET /api/article/1440 HTTP/1.0" 200 2701
+[05/Jul/2023 19:27:05] "GET /api/table/sync_news/ HTTP/1.0" 200 2195028
+[05/Jul/2023 19:27:14] "GET /api/table/davsay/ HTTP/1.0" 200 510297
+[05/Jul/2023 19:27:20] "GET /api/user/userinfo/ HTTP/1.0" 200 448
+[05/Jul/2023 19:27:20] "GET /api/table/davsay/ HTTP/1.0" 200 510297
+[05/Jul/2023 19:27:31] "GET /api/user/userinfo/ HTTP/1.0" 200 448
+[05/Jul/2023 19:27:35] "GET /api/table/sync_news/ HTTP/1.0" 200 2195028
+[05/Jul/2023 19:27:43] "GET /api/table/fupan/ HTTP/1.0" 200 1165185
+[05/Jul/2023 19:27:46] "GET /api/table/davsay/ HTTP/1.0" 200 510297
+[05/Jul/2023 19:27:50] "GET /api/article/10 HTTP/1.0" 200 26519

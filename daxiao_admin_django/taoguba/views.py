@@ -27,28 +27,29 @@ def GetDbList(requests):
     apm_db_list={'data':apm_db_list}
     apm_db_list['code'] = 200
     return JsonResponse(apm_db_list)
-def SyncNews(requests):
+def SyncNews(request):
     employee = DbUtils.Model()
     dbsql = "select * from sync_news where news_type='11' order by news_publish_time desc;"
     apm_db_list=employee.fetchall(dbsql)
     apm_db_list={'data':apm_db_list}
     apm_db_list['code'] = 200
     return JsonResponse(apm_db_list)
-def HotNews(requests):
+def HotNews(request):
     employee = DbUtils.Model()
-    dbsql = "select * from base_news where news_type='2' order by news_publish_time desc;"
+    #dbsql = "SELECT  * from base_news  WHERE  news_type ='2' AND DATE_SUB(CURDATE(), INTERVAL 1 DAY) <= date(news_publish_time) order by news_publish_time desc;"
+    dbsql = "SELECT  * from base_news  WHERE  news_type ='2' AND DATE_SUB(NOW(), INTERVAL 24 HOUR) <= date(news_publish_time) order by news_publish_time desc;"
     apm_db_list=employee.fetchall(dbsql)
     apm_db_list={'data':apm_db_list}
     apm_db_list['code'] = 200
     return JsonResponse(apm_db_list)
-def FuPan(requests):
+def FuPan(request):
     employee = DbUtils.Model()
     dbsql = "select * from base_news where news_type='3' order by news_publish_time desc;"
     apm_db_list=employee.fetchall(dbsql)
     apm_db_list={'data':apm_db_list}
     apm_db_list['code'] = 200
     return JsonResponse(apm_db_list)
-def DavSay(requests):
+def DavSay(request):
     employee = DbUtils.Model()
     dbsql = "select * from base_news where news_type='12' order by news_publish_time desc;"
     apm_db_list=employee.fetchall(dbsql)
@@ -56,8 +57,7 @@ def DavSay(requests):
     apm_db_list['code'] = 200
     return JsonResponse(apm_db_list)
 
-def GetAuthorName(requests):
-
+def GetAuthorName(request):
     employee = DbUtils.Model()
     dbsql = "SELECT author_name as value  from author_say GROUP BY author_name"
     apm_db_list=employee.fetchall(dbsql)
@@ -69,3 +69,10 @@ def GetAuthorName(requests):
     apm_db_list['value1'] = value1
     return JsonResponse(apm_db_list)
 
+def GetArticleInfo(request,id):
+    employee = DbUtils.Model()
+    dbsql = "SELECT* from base_news where id = {0}".format(id)
+    apm_db_list=employee.fetchall(dbsql)
+    apm_db_list={'data':apm_db_list}
+    apm_db_list['code'] = 200
+    return JsonResponse(apm_db_list)

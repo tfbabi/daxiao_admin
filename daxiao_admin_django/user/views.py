@@ -83,7 +83,7 @@ class userinfo(APIView):
             ret.code=200
             ret.name=username
             #ret.avatar='../../assets/images/img.jpg'
-            ret.avatar='http://localhost:8088/static/images/user/head.jpeg'
+            ret.avatar='https://admin.selfroad.cn/static/img/head.jpeg'
             ret.data=list(userdata)[0]
 
         else:

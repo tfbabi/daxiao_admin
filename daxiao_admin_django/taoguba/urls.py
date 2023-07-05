@@ -16,4 +16,5 @@ urlpatterns = [
     url('^table/fupan/$',views.FuPan,name='复盘'),
     url('^table/davsay/$',views.DavSay,name='大v说'),
     url('^table/get_author_name/$',views.GetAuthorName,name='获取大V'),
+    url(r'^article/(?P<id>\d+)$',views.GetArticleInfo,name='单片文章详情'),
 ]
