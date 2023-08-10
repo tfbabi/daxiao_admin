@@ -76,3 +76,10 @@ def GetArticleInfo(request,id):
     apm_db_list={'data':apm_db_list}
     apm_db_list['code'] = 200
     return JsonResponse(apm_db_list)
+def GetClsNews(request):
+    employee = DbUtils.Model()
+    dbsql = "SELECT* from dianbao_news"
+    apm_db_list=employee.fetchall(dbsql)
+    apm_db_list={'data':apm_db_list}
+    apm_db_list['code'] = 200
+    return JsonResponse(apm_db_list)
