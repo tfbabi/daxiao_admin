@@ -83,3 +83,13 @@ def GetClsNews(request):
     apm_db_list={'data':apm_db_list}
     apm_db_list['code'] = 200
     return JsonResponse(apm_db_list)
+
+def GetKanpanZt(request):
+    employee = DbUtils.Model()
+    today = time.strftime("%Y-%m-%d", time.localtime(time.time()))
+    dbsql = "SELECT * from zhangting where zt_time  >= CURDATE() - INTERVAL 2 DAY order by zt_time desc;"
+    print(dbsql)
+    apm_db_list=employee.fetchall(dbsql)
+    apm_db_list={'data':apm_db_list}
+    apm_db_list['code'] = 200
+    return JsonResponse(apm_db_list)
