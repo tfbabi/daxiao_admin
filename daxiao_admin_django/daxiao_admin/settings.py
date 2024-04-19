@@ -94,11 +94,11 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.mysql',  # 数据库引擎
-        'NAME': 'drf_demo',  # 数据库名，自己本地创建
+        'NAME': 'xxxx',  # 数据库名，自己本地创建
         'USER': 'root',  # 数据库用户名
-        'PASSWORD': 'zy09031827,,',  # 数据库密码
-        'HOST': 'admin.selfroad.cn',  # MySQL服务所在主机IP
-        'PORT': '33306',  # MySQL服务端口
+        'PASSWORD': 'xxxx',  # 数据库密码
+        'HOST': 'xxxx',  # MySQL服务所在主机IP
+        'PORT': 'xxxx',  # MySQL服务端口
     }
 }
 
