@@ -9,7 +9,7 @@ import pymysql
 
 class Model(object):
 
-    def __init__(self, username='xxxx', password='xxxx', database='xxxx',port=33306, host='xxxx'):
+    def __init__(self, username='xxxx', password='xxxx', database='xxxx',port=xxxx, host='xxxx'):
         # 创建连接
         self.connection = pymysql.connect(user=username, password=password, database=database,port=port, host=host, cursorclass=pymysql.cursors.DictCursor)
 
