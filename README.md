@@ -7,3 +7,16 @@
 爬虫脚本未在此项目，有需要请移步。（开发不易，请勿随意举报。）
 
 ![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/f54d40ed-a85a-42a4-8768-22bc8971569e)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/728ad8da-5228-4c79-b698-348e07527e22)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/b11db441-552c-4f26-babe-6c9d50ee05f4)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/7a035c39-9c3f-416d-acef-f8215fac2b18)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/0b553d0f-cad2-43bc-8e4f-db87163ca7c0)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/fd48bd80-37e5-41f0-8259-5248c13aa243)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/92a84d29-29af-44c6-95d5-bfb89d49569c)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/dc475c3b-67cf-4261-97a0-d2d41f27c911)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/881c5404-c99d-4c73-9c09-2e76853ca735)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/6a2edd21-534e-4e10-abfa-191dfae5ea29)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/85646169-8b3c-492f-afc4-afa8e06ca0cd)
+
+如需使用，请添加账号进股票交流群。未避免恶意使用及举报，登录账户统一群里发放，请理解谢谢。
+![cc762f83f4009e99f0740da11e18f412](https://github.com/tfbabi/daxiao_admin/assets/13534300/47fc1173-d91a-4522-875d-b694ff66607f)
