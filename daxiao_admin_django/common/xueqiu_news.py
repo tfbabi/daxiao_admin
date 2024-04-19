@@ -53,8 +53,8 @@ while True:
         targeturl = news['target']
         ctime = time.strftime('%Y-%m-%d %H:%M', time.localtime(news['created_at']/1000))
         #msg = ctime +'\n' +content+ targeturl
-        #wx=wx_send.WeChat(CORPSECRET='foZ9HWb7fSjcJA3JSNftEjGtuxKrmM6YudjuPxi_7M',AGENTID='1000002')
-        #wx=wx_send.WeChat(CORPSECRET='foZ9HWb7fSjcJA3JSNftEjGtuxKrmM6YudjuPxi_7Mk',AGENTID='1000002')
+        #wx=wx_send.WeChat(CORPSECRET='',AGENTID='1000002')
+        #wx=wx_send.WeChat(CORPSECRET='',AGENTID='1000002')
         #wx.send_text_card(title=title,date=ctime,content=content,url=targeturl)
         sql="insert into xueqiu_news (title,content,url,ctime) values ('{0}','{1}','{2}','{3}')".format(str(title),str(content),str(targeturl),str(ctime))
         employee.change(sql)
