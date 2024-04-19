@@ -1,5 +1,5 @@
 # 大校财经系统
-一个财经爱好者开发的股票相关新闻、大v文章、评论、每日市场情况，选股器等功能的聚合网站。
+一个财经爱好者开发的股票相关新闻、大v文章、评论、每日市场情况，选股器(涨幅、涨速自动定时刷新)等功能的聚合网站。
 能够网罗当下财经世界各网站最热门的股票、板块、7x24新闻、技术牛人文章评论，热门题材选股等常用功能。
 本网站免费对外开发，基于python+django+vue开发，消息源于各网站爬虫汇聚所得。非常适合上班族盯盘。
 
@@ -18,6 +18,10 @@
 ![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/881c5404-c99d-4c73-9c09-2e76853ca735)
 ![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/6a2edd21-534e-4e10-abfa-191dfae5ea29)
 ![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/85646169-8b3c-492f-afc4-afa8e06ca0cd)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/666499c7-f2bb-4a82-a63c-6710dab26d37)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/fc506a94-8ae3-4796-a9a1-d71f321dc176)
+![image](https://github.com/tfbabi/daxiao_admin/assets/13534300/91170253-94d7-466f-b17f-992590adcb33)
+
 
 如需使用，请添加账号进股票交流群。未避免恶意使用及举报，登录地址及账户统一群里发放，望理解谢谢。
 ![cc762f83f4009e99f0740da11e18f412](https://github.com/tfbabi/daxiao_admin/assets/13534300/47fc1173-d91a-4522-875d-b694ff66607f)
