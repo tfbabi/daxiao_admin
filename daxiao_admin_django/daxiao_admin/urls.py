@@ -19,4 +19,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url('^api/',include('user.urls')),
     url('^api/',include('taoguba.urls')),
+    url('^api/',include('basic_dashboard.urls')),
+    url('^api/',include('xuangu.urls')),
 ]

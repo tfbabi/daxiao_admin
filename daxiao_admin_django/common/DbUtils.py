@@ -9,11 +9,10 @@ import pymysql
 
 class Model(object):
 
-    def __init__(self, username='root', password='zy09031827,,', database='daxiaocaijing',port=33306, host='81.70.193.238'):
+    def __init__(self, username='root', password='zy09031827,,', database='daxiaocaijing',port=33306, host='admin.selfroad.cn'):
         # 创建连接
         self.connection = pymysql.connect(user=username, password=password, database=database,port=port, host=host, cursorclass=pymysql.cursors.DictCursor)
-        # 创建游标
-        print('1')
+
         self.cursor = self.connection.cursor()
         # 查询所有数据
     def fetchall(self, sql):

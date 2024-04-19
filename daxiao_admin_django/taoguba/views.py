@@ -20,7 +20,6 @@ def GetDbList(requests):
     if author_name:
 
         dbsql = "select * from author_say where author_name = '{0}' order by publish_time desc;".format(author_name)
-        print(dbsql)
     else:
         dbsql = "select * from author_say order by publish_time desc;"
     apm_db_list=employee.fetchall(dbsql)
@@ -51,7 +50,7 @@ def FuPan(request):
     return JsonResponse(apm_db_list)
 def DavSay(request):
     employee = DbUtils.Model()
-    dbsql = "select * from base_news where news_type='12' order by news_publish_time desc;"
+    dbsql = "select * from base_news where news_type='12' order by create_time desc;"
     apm_db_list=employee.fetchall(dbsql)
     apm_db_list={'data':apm_db_list}
     apm_db_list['code'] = 200
@@ -88,7 +87,7 @@ def GetKanpanZt(request):
     employee = DbUtils.Model()
     today = time.strftime("%Y-%m-%d", time.localtime(time.time()))
     dbsql = "SELECT * from zhangting where zt_time  >= CURDATE() - INTERVAL 2 DAY order by zt_time desc;"
-    print(dbsql)
+    # print(dbsql)
     apm_db_list=employee.fetchall(dbsql)
     apm_db_list={'data':apm_db_list}
     apm_db_list['code'] = 200

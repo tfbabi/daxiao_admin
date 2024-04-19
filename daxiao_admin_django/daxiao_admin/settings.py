@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'user',
     'taoguba',
+    'basic_dashboard',
+    'xuangu',
 ]
 
 REST_FRAMEWORK = {
@@ -95,7 +97,7 @@ DATABASES = {
         'NAME': 'drf_demo',  # 数据库名，自己本地创建
         'USER': 'root',  # 数据库用户名
         'PASSWORD': 'zy09031827,,',  # 数据库密码
-        'HOST': '81.70.193.238',  # MySQL服务所在主机IP
+        'HOST': 'admin.selfroad.cn',  # MySQL服务所在主机IP
         'PORT': '33306',  # MySQL服务端口
     }
 }
